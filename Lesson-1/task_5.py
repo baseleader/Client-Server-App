@@ -21,3 +21,4 @@ for log in addresses:
         print(result)
         line = line.decode(result['encoding']).encode('utf-8')
         print(line.decode('utf-8'))
+        print("-" * 100)
